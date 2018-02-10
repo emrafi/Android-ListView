@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_amphibi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.muhammadraafi.finalproject.AmphibiActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\t\t\tAmfibi adalah hewan yang secara taksonomi dikelompokkan dalam kelas Amphibia. Secara singkat amfibi atau amfibia bisa diberikan pengertian sebagai hewan bertulang belakang (vertebrata), berdarah dingin (poikiloterm), dan ‘berkaki empat’ (tetrapoda) yang hidup di dua alam, yaitu di air dan daratan. Kata Amphibia sendiri berasal bahasa Yunani yaitu “amphi” yang berarti rangkap dan “bios” yang berarti kehidupan. Ciri-ciri amphibi antara lain:
+  \n1. Penutup tubuhnya berupa kulit yang berlendir.
+  \n2. Hewan berdarah dingin (poikiloterm).
+  \n3. Amfibi mengalami metamorfosis sempurna.
+  \n4. Hewan ‘berkaki empat’ (tetrapoda) dengan alat gerak berupa dua pasang kaki. Kaki amfibi memiliki selaput renang yang terdapat di antara jari-jari kakinya. Kaki ini berfungsi juga untuk melompat dan berenang.
+  \n5. Jantung amfibi terdiri atas tiga ruangan yaitu dua serambi dan satu bilik.
+  \n6. Alat pernafasan amfibi setelah dan sebelum bermetamorfosis berbeda. Saat masih larva (kecebong) alat pernapasannya berupa insang. Setelah dewasa bernafas dengan menggunakan paru-paru dan kulit. Kulit dan hidung amfibi mempunyai katup yang berfungsi mencegah air tersedot masuk ke dalam tubuh ketika menyelam.
+  \n7. Mata amfibi memiliki selaput tambahan yang disebut membrana niktitans. Selaput ini berguna saat menyelam.
+  \n8. Amfibi berkembang biak dengan bertelur dan pembuahan eksternal, yaitu betina melepaskan telurnya dan dibuahi oleh yang jantan di luar tubuh induknya."
+            android:padding="10dp"
+            android:textSize="17sp"
+            android:textAppearance="@anim/fab_scale_up"
+            android:background="#fff176"
+            android:textColor="@android:color/black"
+            />
+    </ScrollView>
+</RelativeLayout>

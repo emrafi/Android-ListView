@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reptilia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.muhammadraafi.finalproject.ReptiliaActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\t\t\tReptil berasal dari bahasa latin yaitu dari kata repto yang berarti melata. Jenis-jenis hewan reptil adalah cecak, ular, kadal, tokek, penyu dan kura-kura. Habitat reptilia yang hidupnya di darat, rawa-rawa, laut, dan air tawar, namun reptil dapat beradaptasi pada kehidupan di darat. Berikut ciri-ciri reptilia:
+\n1. Memiliki ukuran tubuh bervariasi.
+\n2. Reptilia memiliki kelenjar bau di dekat kloaka.
+\n3. Kulit tubuh kering dan tertutup oleh sisik atau lempeng epidermal. Sisik mengandung protein keratin yang menyebabkan kulit menjadi kedap air dan membantu mencegah dehidrasi di udara yang kering.
+\n4. Reptilia bernapas dengan baru-paru.
+\n5. Reptilia merupakan hewan poikiloterm (berdarah dingin). Reptilia mengontrol suhu tubuhnya bukan dengan metabolisme tubuh, melainkan dengan melakukan adaptasi tingkah laku.
+\n6. Reptilia memiliki peredaran darah tertutup ganda.
+\n7. Alat ekskresi berupa sepasang ginjal yang berbentuk pipih.
+\n8. Alat indra berupa mata, telinga, dan hidung.
+\n9. Sistem saraf berupa otak dengan 12 pasang saraf kranial.
+\n10. Alat kelamin reptilia terpisah.
+\n11. Reptilia cenderung memiliki umur yang panjang. "
+            android:padding="10dp"
+            android:textAppearance="@anim/fab_slide_in_from_right"
+            android:textSize="17sp"
+            android:background="#fff176"
+            android:textColor="@android:color/black"
+            />
+
+    </ScrollView>
+
+</RelativeLayout>

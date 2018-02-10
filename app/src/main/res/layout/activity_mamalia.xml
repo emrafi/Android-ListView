@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mamalia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.muhammadraafi.finalproject.MamaliaActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\t\t\tMamalia adalah hewan yang memiliki kelenjar mamae- atau biasa juga disebut dengan hewan menyusui. Mamalia terdiri lebih dari 5.000 genus, yang tersebar dalam 425 keluarga dan hingga 46 ordo, meskipun hal ini tergantung klasifikasi ilmiah yang dipakai. Secara filogenetik, yang disebut Mamalia adalah semua turunan dari nenek moyang monotremata (seperti echidna) dan mamalia therian (berplasenta dan berkantung atau marsupial), berikut ciri-ciri dari mamalia:
+        \n1. Mempunyai kelenjar susu
+        \n2. Mempunyai rambut
+        \n3. Otot diafragma
+        \n4. Jantung beruang 4
+        \n5. Bersekat sempurna
+        \n6. Sistem syaraf sudah berkembang sangat kompleks
+        \n7. Umumnya hidup di daratan, tetapi ada pula yang hidup di air seperti paus dan lumba-lumba
+        \n8. Pada kulit terdapat kelenjar keringat dan kelenjar minyak
+        \n9. Fertilisasi internal, Bernafas dengan paru-paru
+        \n10. Secara Evolusi mamalia diyakini berasal dari Reptil, namun tidak ada bukti otentik dari bentuk peraliha Zaman Triasic 220 juta tahun yang lalu Morganucodon (15 cm, 50 g)"
+            android:padding="10dp"
+            android:textAppearance="@anim/fab_slide_in_from_right"
+            android:textSize="17sp"
+            android:background="#fff176"
+            android:textColor="@android:color/black"
+            />
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

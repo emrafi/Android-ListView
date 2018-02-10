@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aves"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.muhammadraafi.finalproject.AvesActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\t\t\tAves adalah vertebrata yang tubuhnya ditutupi oleh bulu yang berasal dari epidermis dan memiliki berbagai macam adaptasi untuk terbang. Aves meliputi burung, ayam, angsa, dan bebek (itik). Tubuh aves terdiri atas kepala, leher, badan dan ekor. Pada aves terdapat sepasang sayap yang digunakan dan berfungsi untuk terbang serta kaki yang digunakan untuk berjalan. Tungkai belakang bersisik dengan bentuk tungkai belakang dengan cakar yang bermacam-macam sesuai dengan jenis makanan dan cara hidup pada aves tersebut. Berikut ciri-ciri aves:
+\n1. Mulut berparuh yang tersusun dari zat tanduk, tidak memiliki gigi dan lidah yang tidak dijulurkan.
+\n2. Memiliki mata yang berkembang baik dengan kelopak mata, membrana niktitans, dan kelenjar air mata. Umumnya mata aves terdapat dibagian sisi kepala.
+\n3. Aves mempunyai sepasang kaki yang digunakan untuk berjalan, bertengger, berenang, mencakar-cakar rumah, memegang makanan, atau untuk menangkap dan mencengkeram mangsa.
+\n4. Aves memiliki sayap untuk terbang. Kecepatan terbang sekitar 30-75 km/jam.
+\n5. Aves bernapas dengan paru-paru yang berhubungan dengan pundi-pundi udara sebagai alat pernapasan tambahan.
+\n6. Aves memiliki alat suara siring yang terdapat pada percabangan trakea.
+\n7. Sistem pernapasan Aves lengkap, meliputi mulut, esofagus (kerongkongan), tembolok, lambung kelenjar, empedal berdinding tebal (lambung otot), usus halus, usus besar, dan kloaka.
+\n8. Aves bersifat homoioterm karena mempertahankan suhu tubuhnya dengan bulu-bulu (bulu sebagai isolator panas).
+\n9. Alat memiliki peredaran darah ganda, artinya dalam satu kali peredaran darah ke seluruh tubuh, darah melewati jantung dua kali.
+\n10. Alat ekskresi berupa ginjal metanefros dan tidak memiliki kandung kemih.
+\n11. Aves bersifat ovipar dan fertilisasi terjadi secara internal. Telur bercabang keras. Aves betina memiliki satu ovarium (di sebelah kiri tubuh) dan beberapa spesies mengerami telurnya."
+            android:padding="10dp"
+            android:textAppearance="@anim/fab_slide_in_from_left"
+            android:textSize="17sp"
+            android:background="#fff176"
+            android:textColor="@android:color/black"
+            />
+    </ScrollView>
+</RelativeLayout>

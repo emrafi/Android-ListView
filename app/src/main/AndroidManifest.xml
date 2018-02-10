@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.muhammadraafi.finalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Animal Class"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".IntroActivity"
+            android:theme="@style/AppTheme.NoTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoTitle"/>
+        <activity
+            android:name=".ListViewMamaliaActivity"
+            android:label="MAMALIA" />
+        <activity
+            android:name=".ListViewReptiliaActivity"
+            android:label="REPTILIA" />
+        <activity
+            android:name=".ListViewAvesActivity"
+            android:label="AVES" />
+        <activity
+            android:name=".ListViewPiscesActivity"
+            android:label="PISCES" />
+        <activity
+            android:name=".ListViewAmphibiaActivity"
+            android:label="AMPHIBIA" />
+        <activity
+            android:name=".MamaliaActivity"
+            android:label="Ciri-ciri Mamalia" />
+        <activity
+            android:name=".AmphibiActivity"
+            android:label="Ciri-ciri Amphibi" />
+        <activity android:name=".PiscesActivity"
+            android:label="Ciri-ciri Pisces"/>
+        <activity android:name=".ReptiliaActivity"
+            android:label="Ciri-ciri Reptilia"/>
+        <activity android:name=".AvesActivity"
+            android:label="Ciri-ciri Aves">
+        </activity>
+    </application>
+
+</manifest>

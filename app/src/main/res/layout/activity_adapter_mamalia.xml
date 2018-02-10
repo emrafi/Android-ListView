@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/img_user"
+        android:layout_width="80dp"
+        android:layout_height="95dp"
+        android:src="@drawable/badak"
+        android:scaleType="fitXY"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:paddingLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Badak"
+            android:textStyle="bold"
+            android:id="@+id/tv_nama"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rhinoceros sonaicus"
+            android:id="@+id/tv_latin"
+            android:layout_alignParentRight="true"
+            android:textStyle="italic"
+            android:textSize="11sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_pesan"
+            android:layout_below="@id/tv_nama"
+            android:text="Badak merupakan salah satu hewan mamalia yang mempunyai cula dibagian kepalanya dan kulitnya sangat tebal."
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:paddingTop="10dp"/>
+
+    </RelativeLayout>
+</LinearLayout>
